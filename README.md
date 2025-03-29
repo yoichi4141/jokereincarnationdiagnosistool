@@ -1,16 +1,21 @@
-# joke_diagnosis_app
+# 🧠 ジョーク診断メーカー DX
 
-A new Flutter project.
+Flutter × Riverpod × Hooks × Freezed などモダン構成で作ったジョーク診断アプリです。  
+あなたの前世を、謎のAIがジョーク混じりに診断します。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 特徴
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter 3 対応（Web, iOS, Android可）
+- 名前を入力 → 診断開始 → ジョーク診断結果を表示
+- Riverpod + AsyncNotifier による非同期状態管理
+- Freezed + JSON 対応のモデル設計
+- GoRouter による画面遷移
+- flutter_hooks / hooks_riverpod による簡潔なUI状態管理
+- flutter_animate で診断中にアニメーション表示
+- intlで診断日フォーマット対応
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+※ひらがなのみ対応
